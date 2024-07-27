@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+select, select:focus {
+    border: none;
+    padding: 0;
+}
