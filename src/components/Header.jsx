@@ -1,8 +1,89 @@
 import React from 'react'
+import {
+  logo, iconBox, iconCard, iconUserSecurity,
+  telegram, whatsApp, messenger
+} from '../imports/images'
+import { LiaPhoneAltSolid, FiShoppingCart } from '../imports/react-icons'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
+  const sellIconItems = [
+    {
+      icon: iconBox,
+      text: 'Бесплатная доставка'
+    },
+    {
+      icon: iconCard,
+      text: 'Скидка при оплате на сайте'
+    },
+    {
+      icon: iconUserSecurity,
+      text: 'Защита покупателей'
+    },
+  ];
+
+
   return (
-    <div>Header</div>
+    <>
+      {/* START HEADER */}
+      <div className='container flex items-center justify-between gap-10 mx-auto py-5'>
+        {/* START LOGO */}
+        <div>
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
+        </div>
+        {/* END LOGO */}
+
+
+        <div>
+          <div className='flex gap-5 border-r-2'>
+            {sellIconItems.map((item, index) => (
+              <div key={index} className='flex gap-4'>
+                <img src={item.icon} alt={item.text} />
+                <p className='w-32 text-[#808080]'>{item.text}</p>
+              </div>
+            ))}
+          </div>
+
+        </div>
+
+        <div className='flex gap-4'>
+          <div className='flex gap-4'>
+            <img className='w-[30px]' src={telegram} alt="Telegram logo" />
+            <img className='w-[30px]' src={whatsApp} alt="WhatsApp logo" />
+            <img className='w-[30px]' src={messenger} alt="Meesenger quick" />
+          </div>
+          <div>
+            <p className='text-xl font-semibold ml-2 pb-2'>+8 916 460-19-60</p>
+
+            <button className='flex items-center gap-2 text-sariq border-sariq p-2 border-2 rounded-md transition hover:bg-sariq hover:text-white'>
+              <span className='text-xl'>
+                <LiaPhoneAltSolid />
+              </span>
+              <span>Заказать звонок</span>
+            </button>
+
+          </div>
+        </div>
+
+
+        {/* START CART */}
+        <Link to=''>
+          <div className='flex items-center gap-4'>
+            <div className='text-xl'>Ваша корзина  <br /> <span className='text-sariq font-semibold text-xl'>1680 руб.</span></div>
+            <div className='text-[55px] flex relative'><FiShoppingCart />
+              <div className='absolute right-0 bg-sariq rounded-full h-5 w-5'>
+                <span className='text-white absolute left-[6px] text-center text-sm'>0</span>
+              </div>
+            </div>
+          </div>
+        </Link>
+        {/* END CART */}
+
+      </div>
+      {/* END HEADER */}
+    </>
   )
 }
 

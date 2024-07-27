@@ -8,7 +8,13 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'sariq': '#FD9339',
+        'bubble-gum': '#ff77e9',
+        'bermuda': '#78dcca',
+      },
+    },
   },
   plugins: [
     flowbite.plugin(),
