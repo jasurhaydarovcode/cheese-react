@@ -10,7 +10,21 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![React Router DOM](https://img.shields.io/badge/React_Router_DOM-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
+---
 
+<div align="left">
+
+## Yarn install
+
+```bash
+yarn install
+```
+
+```bash
+yarn run
+```
+
+</div>
 
 ---
 
