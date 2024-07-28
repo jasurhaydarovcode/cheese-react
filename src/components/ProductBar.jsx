@@ -132,6 +132,18 @@ const ProductBar = () => {
                         />
                     ))}
                 </div>
+                <h2 className='pl-3 py-6 text-2xl text-[#4E2D2D] font-semibold'>Оборудование</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    {cards.map((card, index) => (
+                        <Card
+                            key={index}
+                            title={card.title}
+                            price={card.price}
+                            oldPrice={card.oldPrice}
+                            image={card.image}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     );
