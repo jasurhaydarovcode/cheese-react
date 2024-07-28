@@ -49,6 +49,10 @@ yarn run
 
 <div align="right">
 
-### [Markdown Senior](https://github.com/jasurhaydarovcode)
-
 </div>
+
+---
+
+# use API
+### API Author [jasurhaydarovcode](https://github.com/jasurhaydarovcode)
+## [API PRODUCTS](https://dummyjson.com/c/6baf-ff76-4e80-a140)
