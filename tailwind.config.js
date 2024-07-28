@@ -15,6 +15,11 @@ export default {
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
       },
+      backgroundImage: {
+        'slider-first': "url('./src/assets/images/Carusel/Rectangle 6.png')",
+        'slider-second': "url('./src/assets/images/Carusel/Rectangle 226.png')",
+        'slider-thrity': "url('./src/assets/images/Carusel/Rectangle 227.png')",
+      }
     },
   },
   plugins: [
