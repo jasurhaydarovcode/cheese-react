@@ -1,5 +1,8 @@
 import React from 'react'
-import { productOne, productTwo, productThree, productFour } from '../imports/product-images'
+import {
+    productOne, productTwo, productThree, productFour,
+    productFive, productSix, productSeven, productEight
+} from '../imports/product-images'
 
 const Sidebar = () => {
     return (
@@ -78,6 +81,30 @@ const ProductBar = () => {
             price: '420',
             oldPrice: '560',
             image: productFour
+        },
+        {
+            title: 'Форма для твердого сыра 1 кг',
+            price: '1330',
+            oldPrice: '1800',
+            image: productFive
+        },
+        {
+            title: 'Форма для твердого сыра 1 кг',
+            price: '200',
+            oldPrice: '320',
+            image: productSix
+        },
+        {
+            title: 'Красный перец молотый (100г)',
+            price: '380',
+            oldPrice: '400',
+            image: productSeven
+        },
+        {
+            title: 'Мускатный орех молотый (100г)',
+            price: '420',
+            oldPrice: '560',
+            image: productEight
         }
     ];
 
