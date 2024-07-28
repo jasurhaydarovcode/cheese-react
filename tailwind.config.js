@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         'sariq': '#FD9339',
+        'sariq-100': '#F26233',
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
       },
