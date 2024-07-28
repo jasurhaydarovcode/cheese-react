@@ -10,5 +10,9 @@ import telegram from '../assets/images/header/socialsIcons/Telegram.svg'
 import whatsApp from '../assets/images/header/socialsIcons/WhatsUp.svg'
 import messenger from '../assets/images/header/socialsIcons/Messenger.svg'
 
+// Product Sidebar Icon
+import SBcheeseIcon from '../assets/images/product-images/sideBar/cheese 1.svg'
+import SBCrassIcon from '../assets/images/product-images/sideBar/cereal-bowl 1.svg'
 
-export { logo, iconBox, iconCard, iconUserSecurity, telegram, whatsApp, messenger }
+
+export { logo, iconBox, iconCard, iconUserSecurity, telegram, whatsApp, messenger, SBcheeseIcon, SBCrassIcon }

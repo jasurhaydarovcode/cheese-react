@@ -1,42 +1,46 @@
 import React from 'react'
 import {
     productOne, productTwo, productThree, productFour,
-    productFive, productSix, productSeven, productEight
+    productFive, productSix, productSeven, productEight,
 } from '../imports/product-images'
+import { SBcheeseIcon, SBCrassIcon } from '../imports/images'
+import { MdKeyboardArrowRight } from '../imports/react-icons'
 
 const Sidebar = () => {
     return (
         <div className="w-[26%] p-4 bg-gray-2001">
             <div className='border rounded-lg  leading-9'>
-                <div className='bg-sidebar-100 pl-4 pt-2 pb-2'>
+                <div className='flex items-center gap-3 bg-sidebar-100 pl-4 pt-2 pb-2'>
+                    <img src={SBcheeseIcon} alt="Cheese Icon" />
                     <h2 className="text-lg  font-bold">Ингредиенты</h2>
                 </div>
-                <div className='pl-4 pt-4'>
+                <div className='pt-4'>
                     <ul>
-                        <li className="mb-2">Закваски для сыра</li>
-                        <li className="mb-2">Ферменты для сыра</li>
-                        <li className="mb-2">Хлористый кальций</li>
-                        <li className="mb-2">Плесень для сыра</li>
-                        <li className="mb-2">Кисломолочные закваски</li>
-                        <li className="mb-2">Красители для сыра</li>
-                        <li className="mb-2">Специи для сыра</li>
+                        <li className="mb-2 pl-4 border-b-[1px] flex items-center">Закваски для сыра <span className='ml-[40%] text-2xl text-arrow-100'><MdKeyboardArrowRight /></span></li>
+                        <li className="mb-2 pl-4 border-b-[1px] flex items-center">Ферменты для сыра <span className='ml-[37.6%] text-2xl text-arrow-100'><MdKeyboardArrowRight /></span></li>
+                        <li className="mb-2 pl-4 border-b-[1px]">Хлористый кальций</li>
+                        <li className="mb-2 pl-4 border-b-[1px] flex items-center">Плесень для сыра <span className='ml-[42.4%] text-2xl text-arrow-100'><MdKeyboardArrowRight /></span></li>
+                        <li className="mb-2 pl-4 border-b-[1px] flex items-center">Кисломолочные закваски <span className='ml-[25%] text-2xl text-arrow-100'><MdKeyboardArrowRight /></span></li>
+                        <li className="mb-2 pl-4 border-b-[1px]">Красители для сыра</li>
+                        <li className="mb-2 pl-4 flex items-center">Специи для сыра <span className='ml-[45%] text-2xl text-arrow-100'><MdKeyboardArrowRight /></span></li>
                     </ul>
                 </div>
             </div>
 
             <div className='border rounded-lg leading-9 mt-4'>
-                <div className='bg-sidebar-100 pl-4 pt-2 pb-2'>
+                <div className='flex items-center gap-3 bg-sidebar-100 pl-4 pt-2 pb-2'>
+                    <img src={SBCrassIcon} alt="Crass Icon" />
                     <h2 className="text-lg font-bold">Оборудование</h2>
                 </div>
-                <div className='pl-4 pt-4'>
+                <div className='pt-4'>
                     <ul>
-                        <li className="mb-2">Формы для сыра</li>
-                        <li className="mb-2">Латексное покрытие</li>
-                        <li className="mb-2">Воск для сыра</li>
-                        <li className="mb-2">Термоусадочные пакеты</li>
-                        <li className="mb-2">Дренажные коврики</li>
-                        <li className="mb-2">Дренажные мешки и салфетки для прессования</li>
-                        <li className="mb-2">Дренажные контейнеры</li>
+                        <li className="mb-2 pl-4 border-b-[1px] flex items-center">Формы для сыра <span className='ml-[45.4%] text-2xl text-arrow-100'><MdKeyboardArrowRight /></span></li>
+                        <li className="mb-2 pl-4 border-b-[1px]">Латексное покрытие</li>
+                        <li className="mb-2 pl-4 border-b-[1px]">Воск для сыра</li>
+                        <li className="mb-2 pl-4 border-b-[1px] flex items-center">Термоусадочные пакеты <span className='ml-[28%] text-2xl text-arrow-100'><MdKeyboardArrowRight /></span></li>
+                        <li className="mb-2 pl-4 border-b-[1px]">Дренажные коврики</li>
+                        <li className="mb-2 pl-4 border-b-[1px]">Дренажные мешки и салфетки для прессования</li>
+                        <li className="mb-2 pl-4">Дренажные контейнеры</li>
                     </ul>
                 </div>
             </div>
@@ -105,13 +109,18 @@ const ProductBar = () => {
             price: '420',
             oldPrice: '560',
             image: productEight
-        }
+        },
     ];
 
     return (
         <div className='container mx-auto flex'>
             <Sidebar />
             <div className="w-3/4 p-4">
+                <div className='flex gap-4 pl-3 pb-4'>
+                    <p className='font-semibold text-sariq border-b-2 border-sariq hover:border-white transition'>Популярные товары</p>
+                    <p className='text-arrow-100 font-semibold'>Акции</p>
+                </div>
+                <h2 className='pl-3 py-6 text-2xl text-[#4E2D2D] font-semibold'>Ингредиенты</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {cards.map((card, index) => (
                         <Card

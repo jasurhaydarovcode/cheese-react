@@ -15,6 +15,7 @@ export default {
         'sariq': '#FD9339',
         'sariq-100': '#F26233',
         'primBlack': '#292929',
+        'arrow-100': '#808080',
         'sidebar-100': '#FBE8BB',
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',

@@ -70,16 +70,19 @@ const Header = () => {
 
 
         {/* START CART */}
-        <Link to=''>
-          <div className='flex items-center gap-4'>
-            <div className='text-xl'>Ваша корзина  <br /> <span className='text-sariq font-semibold text-xl'>1680 руб.</span></div>
-            <div className='text-[55px] flex relative'><FiShoppingCart />
-              <div className='absolute right-0 bg-sariq rounded-full h-5 w-5'>
-                <span className='text-white absolute left-[6px] text-center text-sm'>0</span>
-              </div>
+        <div className='flex items-center gap-4'>
+          <div className='text-xl'>Ваша корзина  <br /> <span className='text-sariq font-semibold text-xl'>1680 руб.</span></div>
+
+
+          {/* START CART ADD */}
+          <div className='text-[55px] flex relative'><FiShoppingCart />
+            <div className='absolute right-0 bg-sariq rounded-full h-5 w-5'>
+              <span className='text-white absolute left-[6px] text-center text-sm'>0</span>
             </div>
           </div>
-        </Link>
+          {/* END CART ADD */}
+
+        </div>
         {/* END CART */}
 
       </div>
