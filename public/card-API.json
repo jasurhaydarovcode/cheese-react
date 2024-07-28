@@ -3,24 +3,24 @@
         "title": "Мезофильная закваска Danisco CHOOZIT MM...",
         "price": "1300",
         "oldPrice": "1800",
-        "image": ""
+        "image": "https://github.com/jasurhaydarovcode/cheese-react/blob/main/src/assets/images/product-images/Rectangle%2065.png?raw=true"
     },
     {
         "title": "Душистый перец горошком (100г)",
         "price": "200",
         "oldPrice": "320",
-        "image": ""
+        "image": "https://github.com/jasurhaydarovcode/cheese-react/blob/main/src/assets/images/product-images/Rectangle%2065%20(3).png?raw=true"
     },
     {
         "title": "Красный перец молотый (100г)",
         "price": "380",
         "oldPrice": "400",
-        "image": "productThree"
+        "image": "https://github.com/jasurhaydarovcode/cheese-react/blob/main/src/assets/images/product-images/Rectangle%2065%20(2).png?raw=true"
     },
     {
         "title": "Мускатный орех молотый (100г)",
         "price": "420",
         "oldPrice": "560",
-        "image": ""
+        "image": "https://github.com/jasurhaydarovcode/cheese-react/blob/main/src/assets/images/product-images/Rectangle%2065%20(1).png?raw=true"
     }
 ]
