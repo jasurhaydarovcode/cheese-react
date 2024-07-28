@@ -6,6 +6,7 @@ import NavbarTop from '../components/NavbarTop'
 import Advantages from '../components/Advantages'
 import Choose from '../components/Choose'
 import Slider from '../components/Slider'
+import Footer from '../components/Footer'
 
 const Homepage = () => {
     return (
@@ -17,6 +18,7 @@ const Homepage = () => {
             <Advantages />
             <Choose />
             <Slider />
+            <Footer />
         </>
     )
 }

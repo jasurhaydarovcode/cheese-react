@@ -103,8 +103,8 @@ const Slider = () => {
                                 <h5 className="text-lg w-44 mx-auto my-0 font-medium mb-2">{product.name}</h5>
                                 <div className='flex items-center justify-center gap-5'>
                                     <p className="text-base mb-2">
-                                        <span className="text-red-500 font-bold">{product.price}</span>
-                                        <span className="line-through text-gray-500 ml-2">{product.oldPrice}</span>
+                                        <span className="font-bold">{product.price}</span>
+                                        <span className="text-red-500 font-semibold line-through ml-2">{product.oldPrice}</span>
                                     </p>
                                     <button className="bg-sariq text-white px-4 py-2 rounded-lg hover:bg-sariq-100">Добавить</button>
                                 </div>

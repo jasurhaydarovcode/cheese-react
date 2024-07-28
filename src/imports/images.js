@@ -27,6 +27,14 @@ import adventagesBG from '../assets/images/avzalliklar/06-Staff.svg'
 // Bottom Card Image
 import bgTaom from '../assets/images/avzalliklar/image 4.png'
 
+// Footer Social Icons
+import RubleIcon from '../assets/images/footer/socialIcon/Ruble.svg'
+import VectorIcon from '../assets/images/footer/socialIcon/Vector.svg'
+import SberbankIcon from '../assets/images/footer/socialIcon/Sberbank.svg'
+import YandexIcon from '../assets/images/footer/socialIcon/Yandex.svg'
+import MasterCardIcon from '../assets/images/footer/socialIcon/Mastercard.svg'
+import VisaCardIcon from '../assets/images/footer/socialIcon/Visa.svg'
+
 // =============== END HOMEPAGE ===============
 
 export {
@@ -34,5 +42,6 @@ export {
     telegram, whatsApp, messenger,
     SBcheeseIcon, SBCrassIcon,
     chatsOne, chatsSecond, chatsThree, chatsFour,
-    adventagesBG, bgTaom
+    adventagesBG, bgTaom,
+    RubleIcon, VectorIcon, SberbankIcon, YandexIcon, MasterCardIcon, VisaCardIcon
 }
