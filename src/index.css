@@ -4,9 +4,32 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
 }
 
-select, select:focus {
+select {
     border: none;
     padding: 0;
 }
+
+
+/* START SCROOLBAR */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FD9339;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #F26233;
+}
+
+/* END SCROOLBAR */

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Мезофильная закваска Danisco CHOOZIT MM...",
+        "price": "1300",
+        "oldPrice": "1800",
+        "image": ""
+    },
+    {
+        "title": "Душистый перец горошком (100г)",
+        "price": "200",
+        "oldPrice": "320",
+        "image": ""
+    },
+    {
+        "title": "Красный перец молотый (100г)",
+        "price": "380",
+        "oldPrice": "400",
+        "image": "productThree"
+    },
+    {
+        "title": "Мускатный орех молотый (100г)",
+        "price": "420",
+        "oldPrice": "560",
+        "image": ""
+    }
+]

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Carousel = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto pb-6'>
       <div className="py-2 flex space-x-4">
         {/* First block */}
         <div className="relative bg-cover bg-center w-1/2 h-72 bg-slider-first">

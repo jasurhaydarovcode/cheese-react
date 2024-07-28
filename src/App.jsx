@@ -5,13 +5,16 @@ import { Route, Routes } from 'react-router-dom'
 import ProductCard from './routes/ProductCard'
 import NavbarTop from './components/NavbarTop'
 import NotFound from './routes/NotFound'
-import Header from './components/Header'
+import { Helmet } from 'react-helmet'
 
 const App = () => {
   return (
     <>
+      <Helmet>
+        <body className='bg-full-100'></body>
+      </Helmet>
+
       <NavbarTop />
-      <Header />
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/productInfo' element={<ProductCard />} />

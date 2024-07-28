@@ -10,12 +10,17 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Make this
+        'full-100': '#FFFBED',
         'sariq': '#FD9339',
         'sariq-100': '#F26233',
+        'primBlack': '#292929',
+        'sidebar-100': '#FBE8BB',
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
       },
       backgroundImage: {
+        // Slider background images
         'slider-first': "url('./src/assets/images/Carusel/Rectangle 6.png')",
         'slider-second': "url('./src/assets/images/Carusel/Rectangle 226.png')",
         'slider-thrity': "url('./src/assets/images/Carusel/Rectangle 227.png')",
