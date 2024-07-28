@@ -5,6 +5,7 @@ import {
 } from '../imports/images'
 import { LiaPhoneAltSolid, FiShoppingCart } from '../imports/react-icons'
 import { Link } from 'react-router-dom'
+import { BiSearch } from 'react-icons/bi'
 
 const Header = () => {
   const sellIconItems = [
@@ -26,7 +27,7 @@ const Header = () => {
   return (
     <>
       {/* START HEADER */}
-      <div className='container flex items-center justify-between gap-10 mx-auto py-5'>
+      <div className='container flex items-center justify-between gap-10 mx-auto py-2'>
         {/* START LOGO */}
         <div>
           <Link to="/">
@@ -82,6 +83,54 @@ const Header = () => {
         {/* END CART */}
 
       </div>
+
+      <hr />
+
+      <div className='container mx-auto py-3 flex justify-between'>
+        {/* START MINI NAVIGATIONS */}
+        <div>
+          <ul className='flex items-center gap-10'>
+            <li>
+              <select>
+                <option value="recipes">Рецепты</option>
+              </select>
+            </li>
+
+            <li>
+              <Link to=''>Доставка и оплата</Link>
+            </li>
+
+            <li>
+              <Link to=''>Калькулятор Сыродела</Link>
+            </li>
+
+            <li>
+              <Link to=''>Отзывы</Link>
+            </li>
+
+            <li>
+              <Link to="">Вопросы и ответы</Link>
+            </li>
+
+            <li>
+              <Link to=''>Контакты</Link>
+            </li>
+          </ul>
+        </div>
+        {/* END MINI NAVIGATIONS */}
+
+
+        {/* START SEARCH INPUT */}
+        <div className='border-l-2'>
+          <div className='flex items-center gap-2'>
+            <div className='text-2xl text-gray-400 pl-5'><BiSearch /></div>
+            <input className='border-none w-80' type="text" placeholder='Введите название товара или артикул' />
+          </div>
+        </div>
+        {/* END SEARCH INPUT */}
+
+      </div>
+
       {/* END HEADER */}
     </>
   )
