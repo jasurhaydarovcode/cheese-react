@@ -13,6 +13,7 @@ export default {
         'full-100': '#FFFBED',
         'sariq': '#FD9339',
         'sariq-100': '#F26233',
+        'sariq-200': '#FBE8BB',
         'primBlack': '#292929',
         'arrow-100': '#808080',
         'sidebar-100': '#FBE8BB',
