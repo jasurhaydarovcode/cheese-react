@@ -1,5 +1,7 @@
 import logo from '../assets/images/logos/Logo.svg'
 
+
+// =============== START HOMEPAGE ===============
 // SELL ICONS
 import iconBox from '../assets/images/header/sellIcons/delivery-06 1.svg'
 import iconCard from '../assets/images/header/sellIcons/credit-card-repeat 1.svg'
@@ -20,10 +22,17 @@ import chatsSecond from '../assets/images/avzalliklar/chats/2.svg'
 import chatsThree from '../assets/images/avzalliklar/chats/5.png'
 import chatsFour from '../assets/images/avzalliklar/chats/4.svg'
 
+// Advantages BG
+import adventagesBG from '../assets/images/avzalliklar/06-Staff.svg'
+// Bottom Card Image
+import bgTaom from '../assets/images/avzalliklar/image 4.png'
+
+// =============== END HOMEPAGE ===============
 
 export {
     logo, iconBox, iconCard, iconUserSecurity,
     telegram, whatsApp, messenger,
     SBcheeseIcon, SBCrassIcon,
-    chatsOne, chatsSecond, chatsThree, chatsFour
+    chatsOne, chatsSecond, chatsThree, chatsFour,
+    adventagesBG, bgTaom
 }

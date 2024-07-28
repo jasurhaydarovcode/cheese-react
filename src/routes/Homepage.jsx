@@ -4,6 +4,7 @@ import ProductBar from '../components/ProductBar'
 import Header from '../components/Header'
 import NavbarTop from '../components/NavbarTop'
 import Advantages from '../components/Advantages'
+import Choose from '../components/Choose'
 
 const Homepage = () => {
     return (
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Carousel />
             <ProductBar />
             <Advantages />
+            <Choose />
         </>
     )
 }

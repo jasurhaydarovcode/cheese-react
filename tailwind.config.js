@@ -29,6 +29,10 @@ export default {
 
         // Advantages BG
         'advantages': "url('./src/assets/images/avzalliklar/Mask Group.png')",
+
+        // Choose section background's
+        'choose-bg-100': "url('./src/assets/images/choose/bg.png')",
+        'choose-bg-200': "url('./src/assets/images/choose/bg (1).png')",
       }
     },
   },
