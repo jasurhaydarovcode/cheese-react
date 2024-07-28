@@ -14,5 +14,16 @@ import messenger from '../assets/images/header/socialsIcons/Messenger.svg'
 import SBcheeseIcon from '../assets/images/product-images/sideBar/cheese 1.svg'
 import SBCrassIcon from '../assets/images/product-images/sideBar/cereal-bowl 1.svg'
 
+// Advantages Charts Images
+import chatsOne from '../assets/images/avzalliklar/chats/1.svg'
+import chatsSecond from '../assets/images/avzalliklar/chats/2.svg'
+import chatsThree from '../assets/images/avzalliklar/chats/5.png'
+import chatsFour from '../assets/images/avzalliklar/chats/4.svg'
 
-export { logo, iconBox, iconCard, iconUserSecurity, telegram, whatsApp, messenger, SBcheeseIcon, SBCrassIcon }
+
+export {
+    logo, iconBox, iconCard, iconUserSecurity,
+    telegram, whatsApp, messenger,
+    SBcheeseIcon, SBCrassIcon,
+    chatsOne, chatsSecond, chatsThree, chatsFour
+}
