@@ -10,6 +10,11 @@ import { MdKeyboardArrowRight } from 'react-icons/md';
 import { FaFacebookSquare, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { SlSocialVkontakte } from 'react-icons/sl'
 
+// Product one page icons
+import { FaRegStar, FaStar } from 'react-icons/fa'
+import { TbView360Number } from 'react-icons/tb'
+import { FaHeart } from 'react-icons/fa'
+
 export {
     CiLocationOn, GoClock, SlArrowDown,
     FaRegUserCircle, LiaPhoneAltSolid,
@@ -17,5 +22,6 @@ export {
 
     // FOOTER Social Icons
     FaFacebookSquare, FaInstagram, FaTwitter, FaYoutube,
-    SlSocialVkontakte
+    SlSocialVkontakte,
+    FaRegStar, FaStar, TbView360Number, FaHeart
 }

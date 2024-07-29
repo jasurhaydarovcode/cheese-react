@@ -18,7 +18,7 @@ const NotFound = () => {
                 </h1>
                 <p className="my-2 text-gray-800">Извини за это! Пожалуйста, посетите нашу домашнюю страницу, чтобы добраться туда, куда вам нужно.</p>
                 <Link to="/">
-                  <button className="sm:w-full lg:w-auto my-2 border rounded md py-4 px-8 text-center bg-sariq text-white hover:bg-sariq-100 transition focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">Отведи меня домой!</button>
+                  <button className="sm:w-full lg:w-auto my-2 border rounded md py-4 px-8 text  -center bg-sariq text-white hover:bg-sariq-100 transition focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">Отведи меня домой!</button>
                 </Link>
               </div>
             </div>

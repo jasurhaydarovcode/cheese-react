@@ -94,8 +94,16 @@ const Header = () => {
         <div>
           <ul className='flex items-center gap-10'>
             <li>
-              <select>
+              <select className='border-none appearance-none bg-transparent w-full'>
                 <option value="recipes">Рецепты</option>
+                <option value="popular">Полутвердые сыры</option>
+                <option value="">Паста Филата</option>
+                <option value="">Сывороточные сыры</option>
+                <option value="">Сыры с плесенью</option>
+                <option value="">Твердые сыры</option>
+                <option value="">Творожные сыры</option>
+                <option value="">Кисломолочные продукты</option>
+                <option value="">Все рецепты</option>
               </select>
             </li>
 

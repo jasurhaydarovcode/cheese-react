@@ -34,6 +34,7 @@ export default {
         // Choose section background's
         'choose-bg-100': "url('./src/assets/images/choose/bg.png')",
         'choose-bg-200': "url('./src/assets/images/choose/bg (1).png')",
+        'choose-bg-200': "url('./src/assets/images/choose/bg.svg')",
       }
     },
   },

@@ -11,7 +11,7 @@ const Carousel = () => {
               <h2 className="text-white text-3xl font-bold">Наборы для сыроделия</h2>
               <p className="text-white mt-2">Все что вам нужно для приготовления сыра в домашних условиях</p>
             </div>
-            <button className="w-44 bg-sariq text-white py-2 px-4 rounded-lg mt-8">Смотреть наборы</button>
+            <button className="w-44 bg-sariq hover:bg-sariq-100 transition text-white py-2 px-4 rounded-lg mt-8">Смотреть наборы</button>
           </div>
         </div>
 

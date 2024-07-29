@@ -29,14 +29,15 @@ const Choose = () => {
                 </div>
                 {/* END TWO CARD */}
 
-                {/* START SPLIDE */}
                 <h2 className='text-2xl font-semibold text-blown pl-24'>наше оборудование</h2>
-                {/* END SPLIDE */}
 
-                <div className='flex justify-center py-10'>
-                    <img src={adventagesBG} alt="BG IMAGE" />
+                <div className='py-10 flex justify-center'>
+                    <div className='w-[88%] pl-32 pt-24 py-10 h-[500px] bg-choose-bg-200 bg-cover'>
+                        <h2 className='text-3xl font-bold text-blown pb-8'>ПРЕССЫ ДЛЯ СЫРА</h2>
+                        <p className='text-gray-500'>Пресс можно использовать для прессования твердых <br /> сыров. Он разбирается, и вы можете компактно <br /> его упаковать в коробку.</p>
+                        <button className='py-4 my-10 px-7 text-white font-semibold bg-sariq rounded-lg'>Узнать больше</button>
+                    </div>
                 </div>
-
 
                 {/* START CARD */}
                 <div className='flex justify-center pb-10'>

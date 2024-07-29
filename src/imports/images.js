@@ -37,11 +37,30 @@ import VisaCardIcon from '../assets/images/footer/socialIcon/Visa.svg'
 
 // =============== END HOMEPAGE ===============
 
+
+// =============== START PRODUCT PAGE ===============
+import productBigWalpaper from '../assets/images/pages/product/Rectangle 70.png'
+
+// bottom product's
+import firstBproduct from '../assets/images/pages/product/Rectangle 72.png'
+import secondBproduct from '../assets/images/pages/product/Rectangle 71.png'
+import threeBproduct from '../assets/images/pages/product/Rectangle 186.png'
+
+// Product Add Cart Bottom images
+import bottomIconCart1 from '../assets/images/pages/product/christmas-gift 1.svg'
+import bottomIconCart2 from '../assets/images/pages/product/credit-cards.3 1.svg'
+import bottomIconCart3 from '../assets/images/pages/product/social-medias-rewards-rating-10 1.svg'
+import product70ThreeV from '../assets/images/pages/product/Rectangle 70 (1).png'
+// =============== END PRODUCT PAGE ===============
+
 export {
     logo, iconBox, iconCard, iconUserSecurity,
     telegram, whatsApp, messenger,
     SBcheeseIcon, SBCrassIcon,
     chatsOne, chatsSecond, chatsThree, chatsFour,
     adventagesBG, bgTaom,
-    RubleIcon, VectorIcon, SberbankIcon, YandexIcon, MasterCardIcon, VisaCardIcon
+    RubleIcon, VectorIcon, SberbankIcon, YandexIcon, MasterCardIcon, VisaCardIcon,
+    productBigWalpaper,
+    firstBproduct, secondBproduct, threeBproduct,
+    bottomIconCart1, bottomIconCart2, bottomIconCart3, product70ThreeV
 }

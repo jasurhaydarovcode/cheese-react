@@ -98,19 +98,19 @@ const Footer = () => {
             {/* START SOCIAL ICONS */}
             <div>
               <ul className='flex gap-3 text-2xl text-blown'>
-                <li>
+                <li className='cursor-pointer'>
                   <FaInstagram />
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                   <SlSocialVkontakte />
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                   <FaTwitter />
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                   <FaFacebookSquare />
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                   <FaYoutube />
                 </li>
               </ul>
