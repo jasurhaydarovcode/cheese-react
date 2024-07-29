@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Product from './routes/Product'
 import NotFound from './routes/NotFound'
 import { Helmet } from 'react-helmet'
+import Category from './routes/Category'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/product' element={<Product />} />
+        <Route path='/category' element={<Category />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>
     </>
