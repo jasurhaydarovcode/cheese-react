@@ -1,11 +1,12 @@
 import React from 'react';
 import { chatsOne, chatsSecond, chatsThree, chatsFour } from '../imports/images'
+import advantages from '../assets/images/avzalliklar/Mask Group.png'
 
 const Advantages = () => {
     return (
         <div className="relative bg-yellow-200 p-10 flex items-center">
             {/* Background image */}
-            <div className="absolute inset-0 bg-cover bg-no-repeat bg-center bg-advantages"></div>
+            <div className="absolute inset-0 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${advantages})` }}></div>
 
             <div className='container mx-auto'>
                 {/* Overlay for background image */}

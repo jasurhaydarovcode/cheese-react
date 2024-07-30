@@ -22,20 +22,6 @@ export default {
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
       },
-      backgroundImage: {
-        // Slider bg images
-        'slider-first': "url('./src/assets/images/Carusel/Rectangle 6.png')",
-        'slider-second': "url('./src/assets/images/Carusel/Rectangle 226.png')",
-        'slider-thrity': "url('./src/assets/images/Carusel/Rectangle 227.png')",
-
-        // Advantages BG
-        'advantages': "url('./src/assets/images/avzalliklar/Mask Group.png')",
-
-        // Choose section background's
-        'choose-bg-100': "url('./src/assets/images/choose/bg.png')",
-        'choose-bg-200': "url('./src/assets/images/choose/bg (1).png')",
-        'choose-bg-200': "url('./src/assets/images/choose/bg.svg')",
-      }
     },
   },
   plugins: [

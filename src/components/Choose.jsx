@@ -1,6 +1,9 @@
 import React from 'react'
 import { bgTaom } from '../imports/images'
 import { Link } from 'react-router-dom'
+import choosebg100 from '../assets/images/choose/bg.png'
+import choosebg200 from '../assets/images/choose/bg (1).png'
+import choosebg300  from '../assets/images/choose/bg.svg'
 
 const Choose = () => {
     return (
@@ -10,7 +13,7 @@ const Choose = () => {
                 <div className='py-10'>
                     <h2 className='text-blown pl-24 text-2xl font-semibold'>Мы подобрали для вас</h2>
                     <div className="flex justify-around gap-6 py-10">
-                        <div className="flex flex-col justify-between p-6 rounded shadow-lg max-w-xl bg-choose-bg-100 bg-cover pr-48">
+                        <div className="flex flex-col justify-between p-6 rounded shadow-lg max-w-xl bg-cover pr-48" style={{ backgroundImage: `url(${choosebg100})` }}>
                             <div>
                                 <h3 className="text-3xl font-bold mb-2">Более 1000 <br /> лучших рецептов</h3>
                                 <p>Мы собрали для Вас большую базу рецептов.</p>
@@ -18,7 +21,7 @@ const Choose = () => {
                             <button className="bg-orange-500 w-24 text-white mt-9 py-2 px-4 my-7 rounded">Перейти</button>
                         </div>
 
-                        <div className="flex flex-col justify-between p-6 bg-[#4B1D1D] rounded shadow-lg max-w-xl bg-choose-bg-200 bg-cover pr-48">
+                        <div className="flex flex-col justify-between p-6 bg-[#4B1D1D] rounded shadow-lg max-w-xl bg-center bg-cover pr-48" style={{ backgroundImage: `url(https://i.imgur.com/ZED6ye9.png)` }}>
                             <div>
                                 <h3 className="text-3xl font-bold text-white mb-2">Крутые наборы для сыра</h3>
                                 <p className="text-white">Готовые наборы <br /> сэкономят время, мы всё сделали за Вас.</p>
@@ -32,7 +35,7 @@ const Choose = () => {
                 <h2 className='text-2xl font-semibold text-blown pl-24'>наше оборудование</h2>
 
                 <div className='py-10 flex justify-center'>
-                    <div className='w-[88%] pl-32 pt-24 py-10 h-[500px] bg-choose-bg-200 bg-cover'>
+                    <div className='w-[88%] pl-32 pt-24 py-10 h-[500px] bg-cover' style={{ backgroundImage: `url(${choosebg300})` }}>
                         <h2 className='text-3xl font-bold text-blown pb-8'>ПРЕССЫ ДЛЯ СЫРА</h2>
                         <p className='text-gray-500'>Пресс можно использовать для прессования твердых <br /> сыров. Он разбирается, и вы можете компактно <br /> его упаковать в коробку.</p>
                         <button className='py-4 my-10 px-7 text-white font-semibold bg-sariq rounded-lg'>Узнать больше</button>
