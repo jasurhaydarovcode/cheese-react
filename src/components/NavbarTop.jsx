@@ -1,14 +1,10 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import { CiLocationOn, GoClock, FaRegUserCircle } from '../imports/react-icons'
 import { Link } from 'react-router-dom'
 
 const NavbarTop = () => {
     return (
         <>
-            <Helmet>
-                <title>Cheese Making | Homepage</title>
-            </Helmet>
             <div className='border p-2'>
                 <div className='container mx-auto'>
                     <div className='flex justify-between'>

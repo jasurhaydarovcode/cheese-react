@@ -1,50 +1,74 @@
 [
     {
+        "id": 1,
         "title": "Мезофильная закваска Danisco CHOOZIT MM...",
         "price": "1300",
         "oldPrice": "1800",
-        "image": "https://raw.githubusercontent.com/DevResHub/CARD-PRODUCT-API/main/Rectangle%2065.png"
+        "image": "/public/products/Rectangle 65.png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     },
     {
+        "id": 2,
         "title": "Душистый перец горошком (100г)",
         "price": "200",
         "oldPrice": "320",
-        "image": "https://raw.githubusercontent.com/DevResHub/CARD-PRODUCT-API/main/Rectangle%2065%20(3).png"
+        "image": "/public/products/Rectangle 65 (3).png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     },
     {
+        "id": 3,
         "title": "Красный перец молотый (100г)",
         "price": "380",
         "oldPrice": "400",
-        "image": "https://github.com/DevResHub/CARD-PRODUCT-API/blob/main/Rectangle%2065%20(2).png?raw=true"
+        "image": "/public/products/Rectangle 65 (2).png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     },
     {
+        "id": 4,
         "title": "Мускатный орех молотый (100г)",
         "price": "420",
         "oldPrice": "560",
-        "image": "https://github.com/DevResHub/CARD-PRODUCT-API/blob/main/Rectangle%2065%20(1).png?raw=true"
+        "image": "/public/products/Rectangle 65 (1).png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     },
     {
+        "id": 5,
         "title": "Форма для твердого сыра 1 кг",
         "price": "1330",
         "oldPrice": "1800",
-        "image": "https://github.com/DevResHub/CARD-PRODUCT-API/blob/main/Rectangle%2065%20(4).png?raw=true"
+        "image": "/public/products/Rectangle 65 (4).png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     },
     {
+        "id": 6,
         "title": "Форма для твердого сыра 1 кг",
         "price": "200",
         "oldPrice": "320",
-        "image": "https://github.com/DevResHub/CARD-PRODUCT-API/blob/main/Rectangle%2065%20(5).png?raw=true"
+        "image": "/public/products/Rectangle 65 (5).png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     },
     {
+        "id": 7,
         "title": "Красный перец молотый (100г)",
         "price": "380",
         "oldPrice": "400",
-        "image": "https://github.com/DevResHub/CARD-PRODUCT-API/blob/main/Rectangle%2065%20(6).png?raw=true"
+        "image": "/public/products/Rectangle 65 (6).png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     },
     {
+        "id": 8,
         "title": "Мускатный орех молотый (100г)",
         "price": "420",
         "oldPrice": "560",
-        "image": "https://github.com/DevResHub/CARD-PRODUCT-API/blob/main/Rectangle%2065%20(7).png?raw=true"
+        "image": "/public/products/Rectangle 65 (7).png",
+        "remaining": 1,
+        "addToCart": "Добавить"
     }
 ]

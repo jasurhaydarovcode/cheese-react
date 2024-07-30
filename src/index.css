@@ -33,3 +33,16 @@ select {
 }
 
 /* END SCROOLBAR */
+
+
+/* START TAILWIND APPLY */
+
+.splide__arrow {
+    @apply text-gray-400 w-8 h-8  flex items-center justify-center rounded-full;
+}
+
+.splide__arrow svg {
+    @apply text-white w-6 h-6;
+}
+
+/* END TAILWIND APPLY */

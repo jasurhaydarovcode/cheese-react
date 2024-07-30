@@ -1,5 +1,5 @@
 import React from 'react'
-import { adventagesBG, bgTaom } from '../imports/images'
+import { bgTaom } from '../imports/images'
 import { Link } from 'react-router-dom'
 
 const Choose = () => {

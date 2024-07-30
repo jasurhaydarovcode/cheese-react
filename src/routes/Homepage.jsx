@@ -7,10 +7,15 @@ import Advantages from '../components/Advantages'
 import Choose from '../components/Choose'
 import Slider from '../components/Slider'
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet'
 
 const Homepage = () => {
     return (
         <>
+            <Helmet>
+                <title>Cheese Making | Homepage</title>
+            </Helmet>
+
             <NavbarTop />
             <Header />
             <Carousel />

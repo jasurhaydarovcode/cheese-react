@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 // Ubuntu Font Family
 import '../imports/fonts/Ubuntu.js'
@@ -17,9 +17,12 @@ import {
 import { MdKeyboardArrowRight, FaRegStar, FaStar, TbView360Number, FaHeart } from '../imports/react-icons'
 import { Link } from 'react-router-dom'
 import { IoChatboxOutline } from 'react-icons/io5'
+import { Helmet } from 'react-helmet'
 
 
 const Product = () => {
+  const [count, setCount] = useState(0);
+
   const features = [
     {
       icon: bottomIconCart1,
@@ -64,8 +67,13 @@ const Product = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Product | Cheese Making</title>
+      </Helmet>
+
       <NavbarTop />
       <Header />
+
       <div style={{ fontFamily: 'Ubuntu' }} className='container mx-auto'>
         <nav class="flex" aria-label="Breadcrumb">
           <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -74,22 +82,22 @@ const Product = () => {
                 Главная
               </Link>
             </li>
-            <li>
+            {/* <li>
               <div class="flex items-center">
                 <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                 </svg>
                 <a href="#" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Ингредиенты</a>
               </div>
-            </li>
-            <li aria-current="page">
+            </li> */}
+            {/* <li aria-current="page">
               <div class="flex items-center">
                 <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                 </svg>
                 <a href="#" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Кисломолочные закваски</a>
               </div>
-            </li>
+            </li> */}
             <li aria-current="page">
               <div class="flex items-center">
                 <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -188,8 +196,21 @@ const Product = () => {
               </div>
 
               <div className='flex pb-2 gap-4'>
-                <input type="number" className='w-32 border-[1px] border-gray-400' />
-                <button className='w-full h-[44px] rounded-lg bg-sariq text-white'>В корзину</button>
+                {/* <input type="number" className='w-32 border-[1px] border-gray-400' /> */}
+                <div>
+                  <div className="flex items-center justify-center border rounded-lg">
+                    <button className={`px-4 text-2xl py-2 rounded ${count <= 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
+                      onClick={() => count > 0 && setCount(count - 1)}
+                      disabled={count <= 0}>
+                      -
+                    </button>
+                    <span className="mx-4 text-xl">{count}</span>
+                    <button className="px-4 py-2 rounded text-2xl" onClick={() => setCount(count + 1)} >
+                      +
+                    </button>
+                  </div>
+                </div>
+                <button className='w-full h-[46px] rounded-lg bg-sariq text-white'>В корзину</button>
               </div>
 
               <div className='p-4 rounded-lg mt-3 bg-[#F2EFE2]'>

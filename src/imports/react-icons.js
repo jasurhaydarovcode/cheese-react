@@ -15,6 +15,9 @@ import { FaRegStar, FaStar } from 'react-icons/fa'
 import { TbView360Number } from 'react-icons/tb'
 import { FaHeart } from 'react-icons/fa'
 
+// Category Button 
+import { VscSettings } from 'react-icons/vsc';
+
 export {
     CiLocationOn, GoClock, SlArrowDown,
     FaRegUserCircle, LiaPhoneAltSolid,
@@ -23,5 +26,6 @@ export {
     // FOOTER Social Icons
     FaFacebookSquare, FaInstagram, FaTwitter, FaYoutube,
     SlSocialVkontakte,
-    FaRegStar, FaStar, TbView360Number, FaHeart
+    FaRegStar, FaStar, TbView360Number, FaHeart,
+    VscSettings
 }
