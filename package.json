@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/museomoderno": "^5.0.20",
     "@fontsource/roboto": "^5.0.13",
     "@fontsource/ubuntu": "^5.0.13",
     "@splidejs/react-splide": "^0.7.12",

@@ -139,9 +139,7 @@ const Header = () => {
           </div>
         </div>
         {/* END SEARCH INPUT */}
-
       </div>
-
       {/* END HEADER */}
     </>
   )

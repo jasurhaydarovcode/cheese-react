@@ -374,6 +374,11 @@
   resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.5.tgz"
   integrity sha512-sTcG+QZ6fdEUObICavU+aB3Mp8HY4n14wYHdxK4fXjPmv3PXZZeY5RaguJmGyeH/CJQhX3fqKUtS4qc1LoHwhQ==
 
+"@fontsource/museomoderno@^5.0.20":
+  version "5.0.20"
+  resolved "https://registry.yarnpkg.com/@fontsource/museomoderno/-/museomoderno-5.0.20.tgz#60408dc4cb7a2a65837b03ada3a1fb9e9dc51362"
+  integrity sha512-J21FytkQ1RxbXwI4k8WIgrbbLYYQdTuygDyS9vgz6C9087VicSg90886j9yxcSeqxJN7Spu2w7Amr2fivdqCgw==
+
 "@fontsource/roboto@^5.0.13":
   version "5.0.13"
   resolved "https://registry.npmjs.org/@fontsource/roboto/-/roboto-5.0.13.tgz"

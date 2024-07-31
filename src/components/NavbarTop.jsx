@@ -1,10 +1,14 @@
 import React from 'react'
+import { useState } from 'react'
 import { CiLocationOn, GoClock, FaRegUserCircle } from '../imports/react-icons'
 import { Link } from 'react-router-dom'
+import Login from './Login'
 
 const NavbarTop = () => {
+    const [openLogin, setOpenLogin] = useState(false)
     return (
         <>
+            {openLogin && <Login closeLoginModal={setOpenLogin} />}
             <div className='border p-2'>
                 <div className='container mx-auto'>
                     <div className='flex justify-between'>
@@ -48,7 +52,7 @@ const NavbarTop = () => {
                                 <li>
                                     <Link to="" className='flex items-center gap-2'>
                                         <span><FaRegUserCircle /></span>
-                                        <span>Войти в аккаунт</span>
+                                        <button onClick={() => { setOpenLogin(true) }}>Войти в аккаунт</button>
                                     </Link>
                                 </li>
                             </ul>

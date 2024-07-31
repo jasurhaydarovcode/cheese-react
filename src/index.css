@@ -7,6 +7,10 @@ body {
     scroll-behavior: smooth;
 }
 
+.container {
+    margin: 0 auto;
+}
+
 select {
     border: none;
     padding: 0;

@@ -53,6 +53,12 @@ import bottomIconCart3 from '../assets/images/pages/product/social-medias-reward
 import product70ThreeV from '../assets/images/pages/product/Rectangle 70 (1).png'
 // =============== END PRODUCT PAGE ===============
 
+// =============== START Recipes ===============
+import receipesFirst from '../assets/images/pages/Receipes/1.png'
+import receipesSecons from '../assets/images/pages/Receipes/2.png'
+import receipesThree from '../assets/images/pages/Receipes/3.png'
+// =============== END Recipes ===============
+
 export {
     logo, iconBox, iconCard, iconUserSecurity,
     telegram, whatsApp, messenger,
@@ -62,5 +68,6 @@ export {
     RubleIcon, VectorIcon, SberbankIcon, YandexIcon, MasterCardIcon, VisaCardIcon,
     productBigWalpaper,
     firstBproduct, secondBproduct, threeBproduct,
-    bottomIconCart1, bottomIconCart2, bottomIconCart3, product70ThreeV
+    bottomIconCart1, bottomIconCart2, bottomIconCart3, product70ThreeV,
+    receipesFirst, receipesSecons, receipesThree
 }
