@@ -8,6 +8,7 @@ import NotFound from './routes/NotFound'
 import { Helmet } from 'react-helmet'
 import Category from './routes/Category'
 import Receipes from './routes/Receipes'
+import Faq from './routes/Faq'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/product' element={<Product />} />
         <Route path='/category' element={<Category />} />
         <Route path="/receipes" element={<Receipes />} />
+        <Route path='/faq' element={<Faq />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>
     </>

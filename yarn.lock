@@ -379,6 +379,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/museomoderno/-/museomoderno-5.0.20.tgz#60408dc4cb7a2a65837b03ada3a1fb9e9dc51362"
   integrity sha512-J21FytkQ1RxbXwI4k8WIgrbbLYYQdTuygDyS9vgz6C9087VicSg90886j9yxcSeqxJN7Spu2w7Amr2fivdqCgw==
 
+"@fontsource/revalia@^5.0.20":
+  version "5.0.20"
+  resolved "https://registry.yarnpkg.com/@fontsource/revalia/-/revalia-5.0.20.tgz#ea92149e3cb2077b1d0949bd2e7517fb78cd20b4"
+  integrity sha512-0uHZCuVvgcac6nQ8NZTlt63M6U8CqjjyWekiTtesEPuyi6eDy/sPd+yLtVl8RBOJ4NGE7NPIlFBZ2SsQjcgvAQ==
+
 "@fontsource/roboto@^5.0.13":
   version "5.0.13"
   resolved "https://registry.npmjs.org/@fontsource/roboto/-/roboto-5.0.13.tgz"
@@ -388,6 +393,11 @@
   version "5.0.13"
   resolved "https://registry.yarnpkg.com/@fontsource/ubuntu/-/ubuntu-5.0.13.tgz#1521b3ada4afe82358fbc1f3ab975a7fa5a0864d"
   integrity sha512-uCnfknLk6ERUUgGPHqvtLGkHkW/0oyxEJy6CZLaHbh6d1om1jvqcnc5nSPel1UCX5frLxRSTkRKU/vAbL9QtJw==
+
+"@fontsource/varela-round@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/varela-round/-/varela-round-5.0.13.tgz#d62cb0cf665d34fc8358b2792bdbe28612d7ccaf"
+  integrity sha512-RuIQ3gMJT+u+vZVd6SlrUMfz2rsYlLii1BspHbR9VqXpr5gG+x6IPDJCsSTe/Qj1pC3SUQBA8+qWT9NdQCNVTQ==
 
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"

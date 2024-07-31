@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from '../imports/react-icons.js'
 const Sidebar = () => {
     return (
         <>
-            <div className="w-[800px] p-4 bg-gray-2001">
+            <div className="w-[400px] p-4 bg-gray-2001">
                 <div className='border rounded-lg leading-9'>
                     <div className='flex items-center gap-3 bg-sidebar-100 pl-4 pt-2 pb-2'>
                         <img src={SBcheeseIcon} alt="Cheese Icon" />

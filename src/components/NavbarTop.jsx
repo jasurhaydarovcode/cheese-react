@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { CiLocationOn, GoClock, FaRegUserCircle } from '../imports/react-icons'
 import { Link } from 'react-router-dom'
-import Login from './Login'
+import Login from './LoginRegister/Login'
 
 const NavbarTop = () => {
     const [openLogin, setOpenLogin] = useState(false)

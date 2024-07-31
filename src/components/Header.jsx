@@ -120,7 +120,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to="">Вопросы и ответы</Link>
+              <Link to="/faq">Вопросы и ответы</Link>
             </li>
 
             <li>
