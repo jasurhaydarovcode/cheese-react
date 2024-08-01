@@ -94,7 +94,7 @@ const Delivery = () => {
                                     />
                                     <Marker position={position}>
                                         <Popup>
-                                            A pretty CSS3 popup. <br /> Easily customizable.
+                                            Street XP
                                         </Popup>
                                     </Marker>
                                 </MapContainer>

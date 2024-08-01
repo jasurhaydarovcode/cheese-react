@@ -11,7 +11,7 @@ const Faq = () => {
         <>
             <Helmet>
                 <title>
-                    Questions & Answers | Cheese Making
+                    Вопросы и ответы | Cheese Making
                 </title>
             </Helmet>
 

@@ -10,6 +10,7 @@ import Category from './routes/Category'
 import Receipes from './routes/Receipes'
 import Faq from './routes/Faq'
 import Delivery from './routes/Delivery'
+import Contact from './routes/Contact'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/receipes" element={<Receipes />} />
         <Route path='/faq' element={<Faq />} />
         <Route path='/delivery' element={<Delivery />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>
     </>

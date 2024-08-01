@@ -124,7 +124,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to=''>Контакты</Link>
+              <Link to='/contact'>Контакты</Link>
             </li>
           </ul>
         </div>
