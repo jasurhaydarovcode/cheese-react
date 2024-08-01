@@ -108,7 +108,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to=''>Доставка и оплата</Link>
+              <Link to='/delivery'>Доставка и оплата</Link>
             </li>
 
             <li>

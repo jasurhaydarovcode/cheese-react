@@ -22,8 +22,14 @@ const Footer = () => {
               <Link to="/" className="flex items-center">
                 <img src={logo} className="h-8 me-3" alt="FlowBite Logo" />
               </Link>
+              <div className='py-3'>
+                <ul>
+                  <li className='text-gray-400'>Все материалы данного <br /> сайта являются объектами <br /> авторского права.</li>
+                  <li className='pt-2 text-[#292929]'>Разработка сайта: ЛяЧиз</li>
+                </ul>
+              </div>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
+            <div className="grid ml-20 grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Компания</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">

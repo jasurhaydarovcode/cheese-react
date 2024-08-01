@@ -165,7 +165,7 @@ const ProductBar = () => {
               </div>
             </>
           ) : (
-            <h1 className="text-2xl font-bold">Empty</h1>
+            <h1 className="text-2xl font-bold">На данный момент у нас нет Акций</h1>
           )}
         </div>
       </div>

@@ -59,6 +59,12 @@ import receipesSecons from '../assets/images/pages/Receipes/2.png'
 import receipesThree from '../assets/images/pages/Receipes/3.png'
 // =============== END Recipes ===============
 
+// ============== START Delivery =============
+import cardDelivery from '../assets/images/pages/delivery/delivery-17 1.png'
+import cdexLogo from '../assets/images/pages/delivery/Rectangle 185.png'
+// ============== END Delivery =============
+
+
 export {
     logo, iconBox, iconCard, iconUserSecurity,
     telegram, whatsApp, messenger,
@@ -69,5 +75,6 @@ export {
     productBigWalpaper,
     firstBproduct, secondBproduct, threeBproduct,
     bottomIconCart1, bottomIconCart2, bottomIconCart3, product70ThreeV,
-    receipesFirst, receipesSecons, receipesThree
+    receipesFirst, receipesSecons, receipesThree,
+    cardDelivery, cdexLogo
 }
