@@ -39,7 +39,7 @@ const NavbarTop = () => {
                         <div>
                             <ul className='flex gap-7'>
                                 <li>
-                                    <Link to="">О компании</Link>
+                                    <Link to="/about">О компании</Link>
                                 </li>
                                 <li>
                                     <Link to="">Преимущества</Link>

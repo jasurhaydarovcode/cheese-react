@@ -6,6 +6,7 @@ import {
 import { LiaPhoneAltSolid, FiShoppingCart } from '../imports/react-icons';
 import { Link } from 'react-router-dom';
 import { BiSearch } from 'react-icons/bi';
+import { RiShoppingCartFill } from 'react-icons/ri';
 
 const Header = () => {
   const [cartCount, setCartCount] = useState(0);
@@ -53,10 +54,16 @@ const Header = () => {
         </div>
 
         <div className='flex gap-4'>
-          <div className='flex gap-4'>
-            <img className='w-[30px]' src={telegram} alt="Telegram logo" />
-            <img className='w-[30px]' src={whatsApp} alt="WhatsApp logo" />
-            <img className='w-[30px]' src={messenger} alt="Meesenger quick" />
+          <div className='flex items-center gap-4'>
+            <Link to="https://web.telegram.org/" target='_blank'>
+              <img className='w-[30px]' src={telegram} alt="Telegram logo" />
+            </Link>
+            <Link to='https://web.whatsapp.com/' target='_blank'>
+              <img className='w-[30px]' src={whatsApp} alt="WhatsApp logo" />
+            </Link>
+            <Link to='https://www.messenger.com/' target='_blank'>
+              <img className='w-[30px]' src={messenger} alt="Meesenger quick" />
+            </Link>
           </div>
           <div>
             <p className='text-xl font-semibold ml-2 pb-2'>+8 916 460-19-60</p>
@@ -89,8 +96,8 @@ const Header = () => {
 
           {/* Добавить tugmasi */}
           <button onClick={handleAddToCart}
-            className='absolute top-15 right-10 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700'>
-             test Добавить
+            className='absolute top-15 right-48 text-white px-4 py-2 rounded'>
+            <RiShoppingCartFill />
           </button>
         </div>
         {/* END CART */}

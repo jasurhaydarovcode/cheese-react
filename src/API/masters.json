@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ИРИНА",
+        "title": "«По-рижский фермер»",
+        "description": "При заказе я всегда уверена в качестве товара — компания не скрывает сертификаты качества, эпидемиологические заключения и другую информацию.",
+        "image": "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/mans/1%20(2).png?raw=true"
+    },
+    {
+        "name": "АЛЕКСЕЙ",
+        "title": "«Сыроварня Ильиных»",
+        "description": "Мне нравится, что в любой момент я могу позвонить своему менеджеру и получить полноценную профессиональную консультацию.",
+        "image": "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/mans/2%20(2).png?raw=true"
+    },
+    {
+        "name": "СЕРГЕЙ ИВАНОВИЧ",
+        "title": "КФХ Елизаровых",
+        "description": "Программа лояльности, бонусы, акции — ну согласитесь же приятно, когда тебе дают персональную скидку за объем?",
+        "image": "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/mans/3%20(2).png?raw=true"
+    }
+]

@@ -12,8 +12,9 @@ import Faq from './routes/Faq'
 import Delivery from './routes/Delivery'
 import Contact from './routes/Contact'
 import Reviews from './routes/Reviews'
-import NotFound from './routes/NotFound'
 import Calculator from './routes/Calculator'
+import About from './routes/About'
+import NotFound from './routes/NotFound'
 
 const App = () => {
   return (
@@ -31,8 +32,9 @@ const App = () => {
         <Route path='/delivery' element={<Delivery />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/reviews' element={<Reviews />} />
-        <Route path='/*' element={<NotFound />} />
         <Route path='/calculator' element={<Calculator />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/*' element={<NotFound />} />
       </Routes>
     </>
   )

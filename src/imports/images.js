@@ -64,6 +64,18 @@ import cardDelivery from '../assets/images/pages/delivery/delivery-17 1.png'
 import cdexLogo from '../assets/images/pages/delivery/Rectangle 185.png'
 // ============== END Delivery =============
 
+// =============== START About ===============
+import cakeImg from '../assets/images/pages/o/Rectangle 101.png'
+// =============== END About ===============
+
+// =============== START About ===============
+import phoneCallIconPremium from '../assets/images/pages/o/cardIcons/phone-call 1.png'
+import sheildIconPremium from '../assets/images/pages/o/cardIcons/shield-protected-checkmark 1.png'
+import percentIconPremium from '../assets/images/pages/o/cardIcons/percent-refresh 1.png'
+import delIconPremium from '../assets/images/pages/o/cardIcons/delivery-07 1.png'
+
+// =============== START About ===============
+
 
 export {
     logo, iconBox, iconCard, iconUserSecurity,
@@ -76,5 +88,7 @@ export {
     firstBproduct, secondBproduct, threeBproduct,
     bottomIconCart1, bottomIconCart2, bottomIconCart3, product70ThreeV,
     receipesFirst, receipesSecons, receipesThree,
-    cardDelivery, cdexLogo
+    cardDelivery, cdexLogo,
+    cakeImg,
+    phoneCallIconPremium, sheildIconPremium, percentIconPremium, delIconPremium,
 }

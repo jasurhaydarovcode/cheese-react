@@ -105,19 +105,29 @@ const Footer = () => {
             <div>
               <ul className='flex gap-3 text-2xl text-blown'>
                 <li className='cursor-pointer'>
-                  <FaInstagram />
+                  <Link to="https://www.instagram.com/" target='_blank'>
+                    <FaInstagram />
+                  </Link>
                 </li>
                 <li className='cursor-pointer'>
-                  <SlSocialVkontakte />
+                  <Link to="https://vk.com/" target='_blank'>
+                    <SlSocialVkontakte />
+                  </Link>
                 </li>
                 <li className='cursor-pointer'>
-                  <FaTwitter />
+                  <Link to="https://x.com/?lang=en" target='_blank'>
+                    <FaTwitter />
+                  </Link>
                 </li>
                 <li className='cursor-pointer'>
-                  <FaFacebookSquare />
+                  <Link to="https://www.facebook.com/" target='_blank'>
+                    <FaFacebookSquare />
+                  </Link>
                 </li>
                 <li className='cursor-pointer'>
-                  <FaYoutube />
+                  <Link to="https://www.youtube.com/" target='_blank'>
+                    <FaYoutube />
+                  </Link>
                 </li>
               </ul>
             </div>
