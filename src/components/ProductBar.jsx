@@ -5,6 +5,7 @@ import {
 } from '../imports/product-images';
 import { SBcheeseIcon, SBCrassIcon } from '../imports/images';
 import { MdKeyboardArrowRight } from '../imports/react-icons';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -51,7 +52,9 @@ const Sidebar = () => {
 const Card = ({ title, price, oldPrice, image }) => {
   return (
     <div className="border p-4 m-2 rounded">
+      <Link to="/product">
       <img src={image} alt={title} className="w-full h-40 object-cover mb-2" />
+      </Link>
       <h3 className="text-lg font-bold mb-2">{title}</h3>
       <p className="text-gray-600 mb-2">{price}₽ / 1 шт.</p>
       <p className="text-red-600 line-through mb-2">{oldPrice}₽</p>

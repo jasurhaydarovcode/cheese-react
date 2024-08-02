@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react';
 import {
   logo, iconBox, iconCard, iconUserSecurity,
   telegram, whatsApp, messenger
-} from '../imports/images'
-import { LiaPhoneAltSolid, FiShoppingCart } from '../imports/react-icons'
-import { Link } from 'react-router-dom'
-import { BiSearch } from 'react-icons/bi'
+} from '../imports/images';
+import { LiaPhoneAltSolid, FiShoppingCart } from '../imports/react-icons';
+import { Link } from 'react-router-dom';
+import { BiSearch } from 'react-icons/bi';
 
 const Header = () => {
+  const [cartCount, setCartCount] = useState(0);
+
   const sellIconItems = [
     {
       icon: iconBox,
@@ -23,6 +25,9 @@ const Header = () => {
     },
   ];
 
+  const handleAddToCart = () => {
+    setCartCount(cartCount + 1);
+  };
 
   return (
     <>
@@ -36,7 +41,6 @@ const Header = () => {
         </div>
         {/* END LOGO */}
 
-
         <div>
           <div className='flex gap-5 border-r-2'>
             {sellIconItems.map((item, index) => (
@@ -46,7 +50,6 @@ const Header = () => {
               </div>
             ))}
           </div>
-
         </div>
 
         <div className='flex gap-4'>
@@ -57,31 +60,38 @@ const Header = () => {
           </div>
           <div>
             <p className='text-xl font-semibold ml-2 pb-2'>+8 916 460-19-60</p>
-
             <button className='flex items-center gap-2 text-sariq border-sariq p-2 border-2 rounded-md transition hover:bg-sariq hover:text-white'>
               <span className='text-xl'>
                 <LiaPhoneAltSolid />
               </span>
               <span>Заказать звонок</span>
             </button>
-
           </div>
         </div>
 
-
         {/* START CART */}
         <div className='flex items-center gap-4'>
-          <div className='text-xl'>Ваша корзина  <br /> <span className='text-sariq font-semibold text-xl'>1680 руб.</span></div>
-
+          <div className='text-xl'>
+            Ваша корзина <br />
+            <span className='text-sariq font-semibold text-xl'>1680 руб.</span>
+          </div>
 
           {/* START CART ADD */}
-          <div className='text-[55px] flex relative'><FiShoppingCart />
+          <div className='text-[55px] flex relative'>
+            <FiShoppingCart />
             <div className='absolute right-0 bg-sariq rounded-full h-5 w-5'>
-              <span className='text-white absolute left-[6px] text-center text-sm'>0</span>
+              {/* ADD TO CART */}
+              <span className='text-white absolute left-[6px] text-center text-sm'>{cartCount}</span>
+              {/* ADD TO CART */}
             </div>
           </div>
           {/* END CART ADD */}
 
+          {/* Добавить tugmasi */}
+          <button onClick={handleAddToCart}
+            className='absolute top-15 right-10 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700'>
+             test Добавить
+          </button>
         </div>
         {/* END CART */}
 
@@ -112,11 +122,11 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to=''>Калькулятор Сыродела</Link>
+              <Link to='/calculator'>Калькулятор Сыродела</Link>
             </li>
 
             <li>
-              <Link to=''>Отзывы</Link>
+              <Link to='/reviews'>Отзывы</Link>
             </li>
 
             <li>
@@ -130,11 +140,12 @@ const Header = () => {
         </div>
         {/* END MINI NAVIGATIONS */}
 
-
         {/* START SEARCH INPUT */}
         <div className='border-l-2'>
           <div className='flex items-center gap-2'>
-            <div className='text-2xl text-gray-400 pl-5'><BiSearch /></div>
+            <div className='text-2xl text-gray-400 pl-5'>
+              <BiSearch />
+            </div>
             <input className='border-none w-80' type="text" placeholder='Введите название товара или артикул' />
           </div>
         </div>
@@ -142,7 +153,7 @@ const Header = () => {
       </div>
       {/* END HEADER */}
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;

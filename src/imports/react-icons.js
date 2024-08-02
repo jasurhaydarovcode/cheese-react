@@ -18,6 +18,10 @@ import { FaHeart } from 'react-icons/fa'
 // Category Button 
 import { VscSettings } from 'react-icons/vsc';
 
+// User Logo
+import { FaRegUser } from 'react-icons/fa'
+
+
 export {
     CiLocationOn, GoClock, SlArrowDown,
     FaRegUserCircle, LiaPhoneAltSolid,
@@ -27,5 +31,6 @@ export {
     FaFacebookSquare, FaInstagram, FaTwitter, FaYoutube,
     SlSocialVkontakte,
     FaRegStar, FaStar, TbView360Number, FaHeart,
-    VscSettings
+    VscSettings,
+    FaRegUser
 }

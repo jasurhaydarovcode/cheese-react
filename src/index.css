@@ -7,6 +7,29 @@ body {
     scroll-behavior: smooth;
 }
 
+
+/* START FONT FACE */
+
+@font-face {
+    font-family: 'CircleRounded-Regular';
+    src: url('./assets/fonts/CircleRounded/CirceRounded-Regular.otf') format('truetype');
+}
+
+.circle-rounded-regular {
+    font-family: "CircleRounded-Regular", sans-serif;
+}
+
+@font-face {
+    font-family: 'CircleRounded-Bold';
+    src: url('./assets/fonts/CircleRounded/CirceRounded-Bold.otf') format('truetype');
+}
+
+.circle-rounded-bold {
+    font-family: "CircleRounded-Bold", sans-serif;
+}
+
+/* END FONT FACE */
+
 .container {
     margin: 0 auto;
 }
@@ -42,7 +65,7 @@ select {
 /* START TAILWIND APPLY */
 
 .splide__arrow {
-    @apply text-gray-400 w-8 h-8  flex items-center justify-center rounded-full;
+    @apply text-gray-400 w-8 h-8 flex items-center justify-center rounded-full;
 }
 
 .splide__arrow svg {
