@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Светлана Петровна",
+        "location": "г. Москва",
+        "date": "24 октября 2020",
+        "rating": 4,
+        "review": "Заказываю сама и рекомендую всем! Всегда в наличии все необходимое для моего хобби: закваски, ферменты и еще много чего. Доставка, оплата - быстро и четко. Для тех, кто только пробует себя в сыроделии - проконсультируют и помогут.",
+        "images": [
+            "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/reviews/1.png?raw=true",
+            "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/reviews/2.png?raw=true",
+            "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/reviews/3.png?raw=true"
+        ]
+    },
+    {
+        "name": "Irina Volkiva",
+        "location": "г. Москва",
+        "date": "24 октября 2020",
+        "rating": 4,
+        "review": "Неделю назад нашла этот магазин. Очень удобно, не нужно ходить куда-то за покупками, все заказала онлайн и с доставкой. После оформления заказа, позвонил менеджер, уточнил все и отправил мои покупки. Оплатила через яндекс кошелек.",
+        "images": [
+            "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/reviews/4.png?raw=true",
+            "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/reviews/5.png?raw=true",
+            "https://github.com/jasurhaydarovcode/Photo-Cloud/blob/main/cheees-making-products/reviews/3.png?raw=true"
+        ]
+    }
+]
