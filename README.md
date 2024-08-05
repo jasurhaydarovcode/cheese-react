@@ -35,7 +35,7 @@ yarn install
 ```
 
 ```bash
-yarn run
+yarn pepsi
 ```
 
 </div>
