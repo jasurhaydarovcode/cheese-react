@@ -4,7 +4,7 @@ import advantages from '../assets/images/avzalliklar/Mask Group.png'
 
 const Advantages = () => {
     return (
-        <div className="relative bg-yellow-200 p-10 flex items-center">
+        <div className="relative container-100 bg-yellow-200 p-10 flex items-center">
             {/* Background image */}
             <div className="absolute inset-0 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${advantages})` }}></div>
 

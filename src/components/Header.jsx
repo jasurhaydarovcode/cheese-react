@@ -67,12 +67,14 @@ const Header = () => {
           </div>
           <div>
             <p className='text-xl font-semibold ml-2 pb-2'>+8 916 460-19-60</p>
-            <button className='flex items-center gap-2 text-sariq border-sariq p-2 border-2 rounded-md transition hover:bg-sariq hover:text-white'>
-              <span className='text-xl'>
-                <LiaPhoneAltSolid />
-              </span>
-              <span>Заказать звонок</span>
-            </button>
+            <a href="tel://+8 916 460-19-60" target='_blank'>
+              <button className='flex items-center gap-2 text-sariq border-sariq p-2 border-2 rounded-md transition hover:bg-sariq hover:text-white'>
+                <span className='text-xl'>
+                  <LiaPhoneAltSolid />
+                </span>
+                <span>Заказать звонок</span>
+              </button>
+            </a>
           </div>
         </div>
 

@@ -2,7 +2,6 @@ import React from 'react'
 import { bgTaom } from '../imports/images'
 import { Link } from 'react-router-dom'
 import choosebg100 from '../assets/images/choose/bg.png'
-import choosebg200 from '../assets/images/choose/bg (1).png'
 import choosebg300  from '../assets/images/choose/bg.svg'
 
 const Choose = () => {
